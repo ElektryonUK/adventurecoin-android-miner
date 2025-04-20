@@ -66,10 +66,10 @@ int scanhash_yespower(int thr_id, uint32_t *pdata,
 {
 	static const yespower_params_t params = {
 		.version = YESPOWER_1_0,
-		.N = 4096,
-		.r = 16,
-		.pers = NULL,
-		.perslen = 0
+		.N = 2048,
+		.r = 32,
+		.pers = (const uint8_t *)"Let the quest begin",
+		.perslen = 19
 	};
 	union {
 		uint8_t u8[8];
