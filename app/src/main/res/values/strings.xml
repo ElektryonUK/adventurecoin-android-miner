@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">YentenMiner</string>
+    <string name="app_name">AdventureCoinMiner</string>
     <string-array name="algorithms">
-        <item>yescryptr16</item>
-        <item>yespowerr16</item>
+        <item>yespoweradvc</item>
     </string-array>
 </resources>
